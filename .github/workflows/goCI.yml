@@ -26,3 +26,10 @@ jobs:
         ls
         go version
         
+    - name: CheckOut Go Lanzs Codes
+      uses: action/checkout@v2
+      
+    - name: Check DIR
+      run: ls
+        
+        
