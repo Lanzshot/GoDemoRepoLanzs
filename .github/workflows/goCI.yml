@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
-      run:
-        echo Hello Lanzs!
+      run: |
         ls
+        echo Hello Lanzs!
+        
         
