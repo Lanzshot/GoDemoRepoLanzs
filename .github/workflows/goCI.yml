@@ -34,4 +34,20 @@ jobs:
         ls
         cat calc.go
         
+    - name: CheckOut Private Repo
+      uses: actions/checkout@v2
+      with:
+        repository: lowkh2/GoSchoolRemoteExample
+        path: RemoteRepo
+        token: ${{ secret.BEN_GOREMOTE }}
         
+    - name: Check Repo DIR
+      run: 
+        ls
+       
+        
+        
+        
+      
+      
+      
