@@ -44,6 +44,9 @@ jobs:
     - name: Check Repo DIR
       run: 
         ls
+        cd RemoteRepo
+        ls
+        cd..
        
         
         
