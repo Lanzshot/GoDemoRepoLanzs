@@ -52,6 +52,7 @@ jobs:
     - name: Installing Dependencies
       run: |
         go get github.com/franela/goblin
+        go test -v
     
         
         
