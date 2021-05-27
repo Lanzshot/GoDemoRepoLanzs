@@ -49,7 +49,10 @@ jobs:
         cat myText.txt
         cd ..
        
-        
+    - name: Installing Dependencies
+      run: |
+        go get github.com/franela/goblin
+    
         
         
       
