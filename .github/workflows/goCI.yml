@@ -42,7 +42,7 @@ jobs:
         token: ${{ secrets.BEN_GOREMOTE }}
         
     - name: Check Repo DIR files
-      run: 
+      run: |
         ls
         cd RemoteRepo
         ls
