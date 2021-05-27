@@ -41,11 +41,12 @@ jobs:
         path: RemoteRepo
         token: ${{ secrets.BEN_GOREMOTE }}
         
-    - name: Check Repo DIR
+    - name: Check Repo DIR files
       run: 
         ls
         cd RemoteRepo
         ls
+        cat myText.txt
         cd..
        
         
